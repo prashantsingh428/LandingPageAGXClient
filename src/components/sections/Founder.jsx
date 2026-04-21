@@ -34,7 +34,7 @@ const Founder = () => {
 
   return (
     <section
-      id="founder"
+      id="fdr"
       className="relative py-20 md:py-28 lg:py-32 bg-[#111827] overflow-hidden"
     >
       {/* Subtle dark background accents */}
@@ -145,7 +145,7 @@ const Founder = () => {
 
               {/* CTA – primary button (unchanged) */}
               <motion.a
-                href="#consultation"
+                href="#cns"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
                 className="inline-block px-8 py-3 bg-primary-600 text-white font-semibold rounded-full shadow-md hover:bg-primary-700 transition-colors"
