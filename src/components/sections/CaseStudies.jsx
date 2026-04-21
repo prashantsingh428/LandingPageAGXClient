@@ -134,7 +134,7 @@ const CaseStudies = () => {
 
   return (
     <section
-      id="case-studies"
+      id="cst"
       className="relative py-20 md:py-28 bg-[#111827] overflow-hidden"
     >
       {/* Background Accents */}
@@ -318,7 +318,7 @@ const CaseStudies = () => {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="#consultation"
+            href="#cns"
             className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all"
           >
             Book Your Free Strategy Call
