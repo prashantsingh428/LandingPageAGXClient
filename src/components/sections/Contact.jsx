@@ -78,7 +78,7 @@ const Contact = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#consultation"
+              href="#cns"
               className="bg-white text-primary-600 px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg transition-shadow flex items-center justify-center gap-2"
             >
               <span>Book Strategy Call</span>
