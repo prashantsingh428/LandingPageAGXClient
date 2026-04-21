@@ -53,7 +53,7 @@ const Awards = () => {
 
   return (
     <section
-      id="awards"
+      id="awd"
       className="relative py-20 md:py-28 bg-[#111827] overflow-hidden"
     >
       {/* Dark theme background accents */}
