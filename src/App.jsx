@@ -20,20 +20,20 @@ function App() {
   return (
     <MainLayout>
 
-      <section id="home"><Hero /></section>
-      <section id="trust-stats"><TrustStats /></section>
-      <section id="why-choose"><WhyChoose /></section>
-      <section id="services"><Services /></section>
-      <section id="screenshots"><Screenshots /></section>
-      <section id="companies"><Companies /></section>
-      <section id="awards"><Awards /></section>
-      <section id="about"><About /></section>
-      <section id="founder"><Founder /></section>
-      <section id="testimonials"><Testimonials /></section>
-      <section id="consultation"><LeadForm /></section>
+      <section id="hme"><Hero /></section>
+      <section id="tst"><TrustStats /></section>
+      <section id="why"><WhyChoose /></section>
+      <section id="svc"><Services /></section>
+      <section id="scs"><Screenshots /></section>
+      <section id="cmp"><Companies /></section>
+      <section id="awd"><Awards /></section>
+      <section id="abt"><About /></section>
+      <section id="fdr"><Founder /></section>
+      <section id="tml"><Testimonials /></section>
+      <section id="cns"><LeadForm /></section>
       <section id="faq"><FAQ /></section>
-      <section id="case-studies"><CaseStudies /></section>
-      <section id="comparison"><ComparisonTable /></section>
+      <section id="cst"><CaseStudies /></section>
+      <section id="cpr"><ComparisonTable /></section>
     </MainLayout>
   );
 }
