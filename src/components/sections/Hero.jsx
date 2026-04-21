@@ -15,12 +15,12 @@ const Hero = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: 'easeOut' }
+      transition: { duration: 0.6, easAe: 'easeOut' }
     },
   };
 
   return (
-    <section id="home" className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-[#111827]">
+    <section id="hme" className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-[#111827]">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         <video
@@ -70,7 +70,7 @@ const Hero = () => {
         >
           {/* Book Call Button */}
           <motion.a
-            href="#consultation"
+            href="#cns"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group inline-flex items-center justify-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-white text-primary-600 rounded-full font-bold text-base md:text-lg shadow-lg hover:shadow-xl transition-all"
