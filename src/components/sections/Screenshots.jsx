@@ -126,7 +126,7 @@ const Screenshots = () => {
 
   return (
     <section
-      id="screenshots"
+      id="scs"
       className="relative py-20 md:py-28 lg:py-32 bg-[#111827] overflow-hidden"
     >
       {/* Dark theme background accents */}
