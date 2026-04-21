@@ -59,7 +59,7 @@ const WhyChoose = () => {
   };
 
   return (
-    <section id="why-choose" className="relative py-20 md:py-28 lg:py-32 bg-[#111827] overflow-hidden">
+    <section id="why" className="relative py-20 md:py-28 lg:py-32 bg-[#111827] overflow-hidden">
       {/* Subtle background accents */}
       <div className="absolute top-20 right-0 w-96 h-96 bg-primary-900/30 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-20 left-0 w-96 h-96 bg-secondary-900/20 rounded-full blur-3xl pointer-events-none" />
