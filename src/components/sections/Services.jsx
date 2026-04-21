@@ -101,7 +101,7 @@ const Services = () => {
 
   return (
     <section
-      id="services"
+      id="svc"
       className="relative py-20 md:py-28 lg:py-32 bg-gray-50 overflow-hidden"
     >
       {/* Subtle background texture */}
@@ -206,7 +206,7 @@ const Services = () => {
             Ready to transform your practice?
           </p>
           <motion.a
-            href="#consultation"
+            href="#cns"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
             className="inline-flex items-center gap-3 px-10 md:px-14 py-4 bg-blue-600 text-white font-semibold text-base md:text-lg rounded-full shadow-lg hover:shadow-xl hover:bg-blue-700 transition-all"
