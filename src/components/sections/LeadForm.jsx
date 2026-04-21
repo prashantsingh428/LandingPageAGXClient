@@ -68,7 +68,7 @@ const LeadForm = () => {
 
   return (
     <section
-      id="consultation"
+      id="cns"
       className="relative py-20 md:py-28 bg-[#111827] overflow-hidden"
     >
       {/* Dark theme background accent */}
