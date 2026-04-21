@@ -2,20 +2,20 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes, FaPhone, FaArrowRight } from "react-icons/fa";
 export const SECTIONS = [
-  { id: "home", label: "Home" },
-  { id: "trust-stats", label: "Trust Stats" },
-  { id: "why-choose", label: "Why Choose Us" },
-  { id: "services", label: "Services" },
-  { id: "screenshots", label: "Screenshots" },
-  { id: "companies", label: "Companies" },
-  { id: "awards", label: "Awards" },
-  { id: "about", label: "About" },
-  { id: "founder", label: "Founder" },
-  { id: "testimonials", label: "Testimonials" },
-  { id: "consultation", label: "Consultation" },
+  { id: "hme", label: "Home" },
+  { id: "tst", label: "Trust Stats" },
+  { id: "why", label: "Why Choose Us" },
+  { id: "svc", label: "Services" },
+  { id: "scs", label: "Screenshots" },
+  { id: "cmp", label: "Companies" },
+  { id: "awd", label: "Awards" },
+  { id: "abt", label: "About" },
+  { id: "fdr", label: "Founder" },
+  { id: "tml", label: "Testimonials" },
+  { id: "cns", label: "Consultation" },
   { id: "faq", label: "FAQ" },
-  { id: "case-studies", label: "Success Stories" },
-  { id: "comparison", label: "Comparison" },
+  { id: "cst", label: "Success Stories" },
+  { id: "cpr", label: "Comparison" },
 ];
 
 
@@ -86,7 +86,7 @@ const Navbar = () => {
 
   // Direct open scroll
   useEffect(() => {
-    const path = window.location.pathname.replace("/", "") || "home";
+    const path = window.location.pathname.replace("/", "") || "hme";
 
     setTimeout(() => {
       const element = document.getElementById(path);
@@ -106,12 +106,12 @@ const Navbar = () => {
 
   // Navbar visible links (only main ones)
   const navLinks = [
-    "home",
-    "why-choose",
-    "services",
-    "case-studies",
-    "testimonials",
-    "about",
+    "hme",
+    "why",
+    "svc",
+    "cst",
+    "tml",
+    "abt",
   ];
 
   return (
@@ -131,7 +131,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center">
 
           {/* Logo */}
-          <a href="/home" onClick={(e) => scrollToSection(e, "home")}>
+          <a href="/hme" onClick={(e) => scrollToSection(e, "hme")}>
             <img
               src="/images/icons/logo.png"
               alt="AlGrowthexa"
@@ -174,8 +174,8 @@ const Navbar = () => {
             </a>
 
             <a
-              href="/consultation"
-              onClick={(e) => scrollToSection(e, "consultation")}
+              href="/cns"
+              onClick={(e) => scrollToSection(e, "cns")}
               className={`px-5 py-2.5 rounded-full font-semibold text-sm transition-colors shadow-md flex items-center gap-2 ${
                 scrolled
                   ? "bg-primary-600 hover:bg-primary-700 text-white"
