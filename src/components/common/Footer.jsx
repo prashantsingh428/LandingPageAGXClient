@@ -11,12 +11,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { href: '#home', label: 'Home' },
-    { href: '#services', label: 'Services' },
-    { href: '#case-studies', label: 'Case Studies' },
-    { href: '#testimonials', label: 'Testimonials' },
-    { href: '#about', label: 'About' },
-    { href: '#why-choose', label: 'Why Choose Us' },
+    { href: '#hme', label: 'Home' },
+    { href: '#svc', label: 'Services' },
+    { href: '#cst', label: 'Case Studies' },
+    { href: '#tml', label: 'Testimonials' },
+    { href: '#abt', label: 'About' },
+    { href: '#why', label: 'Why Choose Us' },
   ];
 
   const servicesList = [
@@ -100,7 +100,7 @@ const Footer = () => {
               {servicesList.map((service, i) => (
                 <li key={i}>
                   <a
-                    href="#services"
+                    href="#svc"
                     className="text-slate-300 hover:text-teal-400 text-sm transition-colors duration-200"
                   >
                     {service}
